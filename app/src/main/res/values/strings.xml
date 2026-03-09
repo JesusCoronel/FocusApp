@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">FocusApp</string>
+
+    <string name="api_base_url" translatable="false">https://api.focusapp.dev/</string>
+
+    <string name="notif_channel_name">Distraction Alerts</string>
+    <string name="notif_channel_description">Alerts when a distraction is detected</string>
+
+    <string name="error_permissions_denied">Required permissions denied: %1$s. The app cannot continue.</string>
+
+    <string name="permission_name_microphone">Microphone</string>
+    <string name="permission_name_notifications">Notifications</string>
+
+    <string name="notif_noise_title">Noise Detected!</string>
+    <string name="notif_noise_message">High noise level detected during your focus session.</string>
+
+    <string name="notif_movement_title">Movement Detected!</string>
+    <string name="notif_movement_message">High movement detected during your focus session.</string>
+
+    <string name="error_failed_to_start_session">Failed to start session: %1$s</string>
+
+    <string name="session_title_active">Focus Mode</string>
+    <string name="session_title_ready">Welcome to Focus App</string>
+
+    <string name="session_subtitle_active">Stay concentrated. We\'re watching for distractions.</string>
+    <string name="session_subtitle_ready">Start a session to track your focus.</string>
+
+    <string name="log_title_this_session">This Session</string>
+    <string name="log_title_past_sessions">Past Sessions</string>
+
+    <string name="session_timer_description">Session timer: %1$s</string>
+
+    <string name="button_starting">Starting…</string>
+    <string name="button_stop_session">Stop Session</string>
+    <string name="button_start_focus_session">Start Session</string>
+
+    <string name="sensor_noise_label">Noise</string>
+    <string name="sensor_movement_label">Movement</string>
+    <string name="sensor_level_description">%1$s level: %2$d percent</string>
+
+    <plurals name="distractions_recorded_description">
+        <item quantity="one">%d distraction recorded</item>
+        <item quantity="other">%d distractions recorded</item>
+    </plurals>
+
+    <string name="percentage_format">%1$d%%</string>
+    <string name="distraction_event_description">%1$s distraction at %2$s, intensity %3$d percent</string>
+    <string name="distraction_type_noise">Ambient Noise</string>
+    <string name="distraction_type_movement">Physical Movement</string>
+    <string name="error_api_generic">API error: %1$d</string>
+    <string name="error_session_not_found">Session not found</string>
+    <string name="distractions">Distractions</string>
+</resources>
